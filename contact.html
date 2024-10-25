@@ -1,0 +1,102 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Contact - My Website</title>  
+    <link rel="stylesheet" href="styles.css">  
+    <style>
+        body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-color: #f8f8f8;  
+}  
+
+header {  
+    background: #333;  
+    color: #fff;  
+    padding: 20px;  
+    text-align: center;  
+}  
+a {  
+            color: #ffffff;  
+            padding: 10px 20px;  
+            text-decoration: none;  
+            border-radius: 5px;  
+            background: #e8491d;  
+        }  
+        nav a:hover {  
+            background:  #0d8521;  
+        }  
+nav {  
+    margin-top: 10px;  
+}  
+
+nav a {  
+    margin: 0 15px;  
+    color: #fff;  
+    text-decoration: none;  
+    font-weight: bold;  
+}  
+
+nav a:hover {  
+    text-decoration: underline;  
+}  
+
+.container {  
+    width: 80%;  
+    max-width: 1200px;  
+    margin: auto;  
+    padding: 20px;  
+    background: #fff;  
+    border-radius: 8px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+
+footer {  
+    text-align: center;  
+    padding: 20px;  
+    background: #333;  
+    color: #fff;  
+    position: relative;  
+}
+
+    </style>
+</head>  
+<body>  
+
+<header>  
+    <h1>My Website</h1>  
+    <nav>  
+        <a href="index.html">Home</a>  
+        <a href="about.html">About</a>  
+        <a href="services.html">Services</a>  
+        <a href="portfolio.html">Portfolio</a>  
+        <a href="contact.html">Contact</a>  
+    </nav>  
+</header>  
+
+<div class="container">  
+    <h2>Contact Us</h2>  
+    <p>If you have any questions, feel free to reach out!</p>  
+    <form action="#" method="post">  
+        <label for="name">Name:</label><br>  
+        <input type="text" id="name" name="name" required><br><br>  
+        
+        <label for="email">Email:</label><br>  
+        <input type="email" id="email" name="email" required><br><br>  
+        
+        <label for="message">Message:</label><br>  
+        <textarea id="message" name="message" required></textarea><br><br>  
+        
+        <input type="submit" value="Send">  
+    </form>  
+</div>  
+
+<footer>  
+    <p>&copy; 2024 My Website. All rights reserved.</p>  
+</footer>  
+
+</body>  
+</html>
