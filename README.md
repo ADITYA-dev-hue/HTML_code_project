@@ -26,7 +26,7 @@ Flexible container system
 Adaptive navigation menu
 Installation
 Clone repository:
-git clone https://github.com/your-username/your-repo.git
+git clone [https://github.com/your-username/your-repo.git](https://github.com/ADITYA-dev-hue/HTML_code_project/commit/42c25fb556950ac51cbead5d90fb1bb8eb6997c3#diff-2212b84a2a6ffe239872c76d266680d86f2438391034b2eb19604f17104f6968)
 Open in browser:
 open index.html
 Project Structure
@@ -68,5 +68,5 @@ Lucide Icons
 Google Fonts
 Unsplash for placeholder images
 Contact
-Aditya - @your_twitter - email@example.com
-Project Link: https://github.com/your-username/your-repo
+Aditya - Email:-aditya04112006@gmail.com
+
